@@ -42,9 +42,15 @@ dfx deploy
 
 
 
-![Uploading Screenshot 2026-04-18 213205.png…]()
+
 ![Uploading Screenshot 2026-04-18 213226.png…]()
-<img width="1918" height="892" alt="Screenshot 2026-04-18 213533" src="https://github.com/user-attachments/assets/3c6395cb-64d0-45e7-9315-60ccbc2e81df" />
-![Uploading Screenshot 2026-04-18 213153.png…]()
+<img width="1917" height="869" alt="Screenshot 2026-04-18 213153" src="https://github.com/user-attachments/assets/349dc797-df85-4542-b434-699e44ba9056" />
+![Uploading Screenshot 2026-04-18 213533.png…]()
+
+
+
+
+
+
 
 
