@@ -39,3 +39,12 @@ dfx deploy
 > **Viva Notes for Developer:** 
 > - Emphasize the separation of concerns: React handles UX and local mock state for now, but in production, all `has_voted` and `voteCount` mutations occur directly on the Rust canister.
 > - Data immutability is guaranteed by exactly-once execution limits on the ICP blockchain.
+
+
+
+![Uploading Screenshot 2026-04-18 213205.png…]()
+![Uploading Screenshot 2026-04-18 213226.png…]()
+<img width="1918" height="892" alt="Screenshot 2026-04-18 213533" src="https://github.com/user-attachments/assets/3c6395cb-64d0-45e7-9315-60ccbc2e81df" />
+![Uploading Screenshot 2026-04-18 213153.png…]()
+
+
