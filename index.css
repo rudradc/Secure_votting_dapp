@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #8b5cf6; /* Vibrant Violet */
+  --secondary-color: #06b6d4; /* Vibrant Cyan */
+  --accent-color: #ec4899; /* Pink edge */
+  --bg-dark: #070a1a; /* Deepest space blue */
+  --card-bg: rgba(18, 25, 50, 0.65);
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+}
+
+body {
+  background: url('/web3_bg.png') no-repeat center center fixed !important;
+  background-size: cover !important;
+  color: var(--text-main) !important;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-card {
+  background: var(--card-bg) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+  border: none !important;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.4);
+}
+
+.form-control-dark {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: var(--text-main) !important;
+}
+
+.form-control-dark::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control-dark:focus {
+  background-color: rgba(30, 41, 59, 1) !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25) !important;
+}
+
+.dashboard-stat-card {
+  transition: all 0.3s ease;
+}
+.dashboard-stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  color: var(--text-muted) !important;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: white !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-dark); 
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
